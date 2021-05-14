@@ -18,3 +18,4 @@ class TestLogin:
 
     def test_broken(self):
         raise Exception('oops')
+
