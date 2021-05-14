@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"broken","Fri May 14 09:11:40 CST 2021","Fri May 14 09:11:40 CST 2021","0","scripts","test_login","","","","test_broken",""
+"passed","Fri May 14 09:11:40 CST 2021","Fri May 14 09:11:40 CST 2021","0","scripts","test_login","","","","test_success","this test succeeds"
+"skipped","Fri May 14 09:11:40 CST 2021","Fri May 14 09:11:40 CST 2021","0","scripts","test_login","","","","test_skip","this test is skipped"
+"failed","Fri May 14 09:11:40 CST 2021","Fri May 14 09:11:40 CST 2021","0","scripts","test_login","","","","test_failure","this test fails"
