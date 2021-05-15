@@ -1,19 +1,21 @@
 ﻿import pytest
+
+
 class TestLogin:
     def test_success(self):
         """this test succeeds"""
         assert True
 
-
     def test_failure(self):
         """this test fails"""
         assert False
-
 
     def test_skip(self):
         """this test is skipped"""
         pytest.skip('for a reason!')
 
-
     def test_broken(self):
-     raise Exception('oops')
+        raise Exception('oops')
+
+    if __name__ == '__main__':
+        pytest.main(['-s', '-vvv', 'test_login', 'q', '--alluredir', 'report'])
