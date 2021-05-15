@@ -19,5 +19,5 @@ class TestLogin:
 
 #
 # if __name__ == '__main__':
-#     pytest.main(['-s', '-v', 'test_login', '--alluredir=./jenkins_project/report/'])
-#     # pytest.main(['-sv','--alluredir=report'])
+#     pytest.main(['-s', '-v', 'test_login', '--html=jenkins/report/num1.html','--alluredir','jenkins/report/result'])
+# #     # pytest.main(['-sv','--alluredir=report'])
