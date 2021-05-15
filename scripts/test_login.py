@@ -19,4 +19,4 @@ class TestLogin:
 
 
 if __name__ == '__main__':
-    pytest.main(['-s', '-vvv', 'test_login', '--alluredir', 'reports'])
+    pytest.main(['-s', '-vvv', 'test_login.py', '--alluredir', 'reports'])
