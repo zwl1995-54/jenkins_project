@@ -17,5 +17,3 @@ class TestLogin:
     def test_broken(self):
         raise Exception('oops')
 
-    if __name__ == '__main__':
-        pytest.main(['-s', '-vvv', 'test_login', 'q', '--alluredir', 'report'])
