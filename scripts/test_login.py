@@ -17,6 +17,7 @@ class TestLogin:
     def test_broken(self):
         raise Exception('oops')
 
-
-if __name__ == '__main__':
-    pytest.main(['-s', '-vvv', 'test_login.py', '--alluredir', 'reports'])
+#
+# if __name__ == '__main__':
+#     pytest.main(['-s', '-v', 'test_login', '--alluredir=./jenkins_project/report/'])
+#     # pytest.main(['-sv','--alluredir=report'])
